@@ -39,6 +39,9 @@ say_hello_to("Bob")
 
 ```
 
+## subscript
+CO~2~
+
 Let's create a link. 
 [online textbook](https://dmw2166.github.io/comp-res-climate-data-sci/intro.html)
 
