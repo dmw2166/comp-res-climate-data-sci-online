@@ -34,5 +34,5 @@ Let's create a link.
 
 #### let's create an image
 
-![my headshot](/home/danielmw/comp-res-climate-data-sci-online/headshot.jpeg)
+![my headshot](headshot.jpeg)
 
