@@ -40,7 +40,7 @@ say_hello_to("Bob")
 ```
 
 ## subscript
-CO$_{2}$
+CO<sub>2</sub>
 
 Let's create a link. 
 [online textbook](https://dmw2166.github.io/comp-res-climate-data-sci/intro.html)
