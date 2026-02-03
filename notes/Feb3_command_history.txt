@@ -1,0 +1,47 @@
+1953  cp /data9/G5053/data/danielmw/GLB.Ts+dSST.csv . 
+ 1954  cp /data9/G5053/data/danielmw/GLB.Ts+dSST.txt . 
+ 1955  clear 
+ 1956  cp /data9/G5053/data/danielmw/GLB.Ts+dSST.csv .
+ 1957  ls
+ 1958  cp /data9/G5053/data/danielmw/* .
+ 1959  ls
+ 1960  less GLB.Ts+dSST.csv
+ 1961  head -2 GLB.Ts+dSST.csv
+ 1962  less GLB.Ts+dSST.csv
+ 1963  head -2 GLB.Ts+dSST.csv
+ 1964  head -6 GLB.Ts+dSST.csv
+ 1965  tail -5 GLB.Ts+dSST.csv
+ 1966  tail -1 GLB.Ts+dSST.csv
+ 1967  head -100 GLB.Ts+dSST.csv
+ 1968  head -100 GLB.Ts+dSST.csv 
+ 1969  head -100 GLB.Ts+dSST.csv | tail -1 
+ 1970  clear
+ 1971  head -100 GLB.Ts+dSST.csv | tail -1 
+ 1972  head -100 GLB.Ts+dSST.csv 
+ 1973  head -100 GLB.Ts+dSST.csv | tail -1 
+ 1974  wc GLB.Ts+dSST.csv
+ 1975  wc -l GLB.Ts+dSST.csv
+ 1976  wc -w GLB.Ts+dSST.csv
+ 1977  wc -l GLB.Ts+dSST.csv
+ 1978  grep "2020" GLB.Ts+dSST.csv 
+ 1979  grep "1977" GLB.Ts+dSST.csv 
+ 1980  grep "Year" GLB.Ts+dSST.csv 
+ 1981  grep "Oct" GLB.Ts+dSST.csv 
+ 1982  grep -i "oct" GLB.Ts+dSST.csv 
+ 1983  man grep
+ 1984  grep "20*" GLB.Ts+dSST.csv
+ 1985  grep "20[0-9]" GLB.Ts+dSST.csv
+ 1986  grep "20*" GLB.Ts+dSST.csv
+ 1987  grep "20[0-9]" GLB.Ts+dSST.csv
+ 1988  grep "[0-9]" GLB.Ts+dSST.csv
+ 1989  grep "[0-9]" GLB.Ts+dSST.csv | cut -d ',' -f 1,2 
+ 1990  head -2 GLB.Ts+dSST.csv
+ 1991  grep "[0-9]" GLB.Ts+dSST.csv | cut -d ',' -f 1,14 
+ 1992  grep "[0-9]" GLB.Ts+dSST.csv | cut -d ',' -f 1,14 | tail -5
+ 1993  grep "[0-9]" GLB.Ts+dSST.csv | cut -d ',' -f 1,14 | tail -5 > lastfive.txt
+ 1994  grep "[0-9]" GLB.Ts+dSST.csv | sort -t ',' -k 14 -r -g | head -5 
+ 1995  grep "[0-9]" GLB.Ts+dSST.csv | sort -t ',' -k 14 -r -g | head -5 | cut -d ',' -f 1,14
+ 1996  grep "[0-9]" GLB.Ts+dSST.csv | sort -t ',' -k 14 -r -g | head -5 | cut -d ',' -f 1,14 > fivewarmest.txt 
+ 1997  grep "[0-9]" GLB.Ts+dSST.csv | sort -t ',' -k 14  -g | head -5 | cut -d ',' -f 1,14
+ 1998  ls
+ 1999  bash myscript.sh GLB.Ts+dSST.csv
